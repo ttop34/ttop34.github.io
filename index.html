@@ -16,42 +16,14 @@
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
             <a class="nav-item nav-link active" href="#">>>> <span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link" href="#">Hi Jayln</a>
-            <a class="nav-item nav-link" href="#">what are you doing?</a>
-            <a class="nav-item nav-link disabled" href="#">I miss you</a>
+            <a class="nav-item nav-link" href="#">Home</a>
+            <a class="nav-item nav-link" href="#">About Me</a>
+            <a class="nav-item nav-link disabled" href="#">Projects</a>
         </div>
     </div>
 </nav>
-
-<p id="greeting">Put in the code girl</p>
-<h1 id="mortal">I miss you ugly</h1>
-
 </div>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-
-<script>
-    "use strict";
-
-
-    $('#mortal').hide();
-
-
-    var konamiCode = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65];
-    var konami_index = 0;
-    $(document).keydown(function(e){
-        if(e.keyCode === konamiCode[konami_index++]){
-            if(konami_index === konamiCode.length){
-                konami_index = [];
-                $('#greeting').hide();
-//                $('#mortal').show();
-                $('#mortal').show();
-            }
-        }else{
-            konami_index = 0;
-        }
-    });
-
-</script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script></body>
 </html>
